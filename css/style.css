@@ -47,6 +47,12 @@ form input {
 	border-radius: 25px;
 }
 
+input::placeholder {
+	text-transform: uppercase;
+	text-align: center;
+	color: #94a8bd;
+}
+
 .city {
 	color: #243141;
 	font-size: 3rem;
