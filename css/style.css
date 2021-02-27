@@ -13,7 +13,7 @@ body {
 	justify-content: center;
 	padding: 150px;
 	font-family: 'Montserrat', sans-serif;
-	background-image: url('/images/mountain.jpg');
+	background-image: url('../images/mountain.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
