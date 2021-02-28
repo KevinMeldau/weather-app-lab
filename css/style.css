@@ -64,7 +64,7 @@ input::placeholder {
 	font-size: 9rem;
 }
 
-button {
+.button {
 	background-color: #2f4066;
 	color: white;
 	border: none;
@@ -73,7 +73,7 @@ button {
 	text-transform: uppercase;
 }
 
-button:hover {
+.button:hover {
 	background-color: #202e4d;
 	cursor: pointer;
 }
