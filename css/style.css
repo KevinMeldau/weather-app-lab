@@ -77,3 +77,8 @@ input::placeholder {
 	background-color: #202e4d;
 	cursor: pointer;
 }
+
+input,
+.button:focus {
+	outline: none;
+}

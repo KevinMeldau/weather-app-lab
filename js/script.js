@@ -17,7 +17,7 @@ function handleSubmit(evt) {
 			'&appid=4ed6dbc4d1e98d1fd7e523129f5e69a4'
 	).then(function (data) {
 		$city.text(data.name);
-		$temp.text(Math.round(data.main.temp) - 273);
+		$temp.text(Math.round(data.main.temp) - 273 + '\u00B0');
 		$icon.attr(
 			'src',
 			'https://openweathermap.org/img/wn/' +
